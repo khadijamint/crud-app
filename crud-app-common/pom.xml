@@ -8,11 +8,42 @@
 		<artifactId>crud-app</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>1.7</version>
+			</plugin>
+		</plugins>
+	</build>
 	<artifactId>crud-app-common</artifactId>
 	<packaging>jar</packaging>
 	<name>crud-app-common</name>
 	<url>http://maven.apache.org</url>
 	
 	<dependencies>
+	<dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-core</artifactId>
+	<version>5.0.3.Final</version>
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.0.3.Final</version>
+    </dependency>
+    <dependency>  
+		    <groupId>org.primefaces</groupId>  
+		    <artifactId>primefaces</artifactId>  
+		    <version>5.3</version>  
+	</dependency> 
+	<dependency>
+		<groupId>org.apache.deltaspike.core</groupId>
+		<artifactId>deltaspike-core-api</artifactId>
+		<version>1.5.0</version>
+    </dependency>
+</dependency>
+	
 	</dependencies>
+	
 </project>

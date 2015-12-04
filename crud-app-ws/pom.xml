@@ -30,6 +30,11 @@
 			<artifactId>selma</artifactId>
 			<version>0.11</version>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.0.3.Final</version>
+		</dependency>		
 	</dependencies>
 	<build>
 		<plugins>
@@ -47,7 +52,12 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>1.7</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>

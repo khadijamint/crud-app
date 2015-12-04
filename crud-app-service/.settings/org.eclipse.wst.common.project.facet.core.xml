@@ -3,5 +3,5 @@
   <fixed facet="jst.java"/>
   <fixed facet="jst.ejb"/>
   <installed facet="jst.ejb" version="2.1"/>
-  <installed facet="jst.java" version="1.7"/>
+  <installed facet="jst.java" version="1.5"/>
 </faceted-project>

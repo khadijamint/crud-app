@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -22,17 +16,19 @@
 	<classpathentry kind="var" path="M2_REPO/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" path="/crud-app-data"/>
 	<classpathentry kind="src" path="/crud-app-common"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-security-module-api/1.5.1/deltaspike-security-module-api-1.5.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/core/deltaspike-core-api/1.5.1/deltaspike-core-api-1.5.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-security-module-impl/1.5.1/deltaspike-security-module-impl-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/plugins/maven-compiler-plugin/1.7/maven-compiler-plugin-1.7.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/core/deltaspike-core-impl/1.5.1/deltaspike-core-impl-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/core/deltaspike-core-api/1.5.1/deltaspike-core-api-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-jsf-module-api/1.5.1/deltaspike-jsf-module-api-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-jsf-module-impl/1.5.1/deltaspike-jsf-module-impl-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-security-module-api/1.5.1/deltaspike-security-module-api-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-security-module-impl/1.5.1/deltaspike-security-module-impl-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-proxy-module-api/1.5.1/deltaspike-proxy-module-api-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/deltaspike/modules/deltaspike-proxy-module-impl-asm5/1.5.1/deltaspike-proxy-module-impl-asm5-1.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator/5.1.1.Final/hibernate-validator-5.1.1.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar"/>
@@ -65,15 +61,35 @@
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/servlet/jsp/jboss-jsp-api_2.3_spec/1.0.1.Final/jboss-jsp-api_2.3_spec-1.0.1.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/servlet/jstl/jboss-jstl-api_1.2_spec/1.1.2.Final/jboss-jstl-api_1.2_spec-1.1.2.Final.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.0_spec/1.0.0.Final/jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar" sourcepath="M2_REPO/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.0_spec/1.0.0.Final/jboss-jaxrs-api_2.0_spec-1.0.0.Final-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.0_spec/1.0.0.Final/jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/websocket/jboss-websocket-api_1.1_spec/1.1.0.Final/jboss-websocket-api_1.1_spec-1.1.0.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.2_spec/1.0.4.Final/jboss-jaxb-api_2.2_spec-1.0.4.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/xml/soap/jboss-saaj-api_1.3_spec/1.0.3.Final/jboss-saaj-api_1.3_spec-1.0.3.Final.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/xml/ws/jboss-jaxws-api_2.2_spec/2.0.2.Final/jboss-jaxws-api_2.2_spec-2.0.2.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-api-mockito/1.6.2/powermock-api-mockito-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-api-support/1.6.2/powermock-api-support-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-core/1.6.2/powermock-core-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-reflect/1.6.2/powermock-reflect-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/assertj/assertj-core/2.1.0/assertj-core-2.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-module-junit4/1.6.2/powermock-module-junit4-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/powermock/powermock-module-junit4-common/1.6.2/powermock-module-junit4-common-1.6.2.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
